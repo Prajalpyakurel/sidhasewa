@@ -1,0 +1,102 @@
+
+body {
+    background-image: url("img/Temple.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.main {
+    background: rgba(111, 0, 255, 0.2);
+    background-size: cover;
+}
+
+.row {
+    justify-content: center;
+}
+
+.login {
+    padding: 20px;
+    padding-bottom: 60px;
+    color: white;
+    text-align: center;
+}
+
+.login h1 {
+    font-size: 55px;
+    font-weight: 600;
+    text-align: center;
+}
+
+form {
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px 10px 10px;
+}
+
+.logininput {
+    width: 100%;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.3);
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0px 1px 10px 1px black;
+    margin-bottom: 30px;
+}
+
+.loginbutton {
+    /* margin-top: -45px; */
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: blue;
+    box-shadow: 0px 1px 10px 4px black;
+}
+
+.login h6 {
+    margin-top: 20px;
+}
+
+.login h6 a {
+    text-decoration: none;
+    color: yellow;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    margin: 20px 0px 30px;
+    border-bottom: 2px solid white;
+    width: 20%;
+}
+
+.option h6 {
+    padding: 0px 5px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.optionbutton {
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 1px 10px 4px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px 4px black;
+}
+
+.icon {
+    font-size: 25px;
+    float: left;
+    margin-top: 4px;
+}

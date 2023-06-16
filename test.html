@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Add Bootstrap CSS -->
+  <script src="https://kit.fontawesome.com/03afbd77fe.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .btn {
+        border: 2px black;
+        width: 200px;
+        text-align: left;
+    
+    }
+
+    .icon {
+        float: right;
+    }
+
+    .slidecontainer {
+      width: 100%;
+    }
+
+    .slider {
+      appearance: none;
+      background-color: blueviolet;
+      height: 15px;
+      border-radius: 25px;
+    }
+  </style>
+</head>
+<body>
+  <button class="btn btn-primary">
+    <i class="fas fa-arrow-left"></i>
+    Button Text
+    <i class="fas fa-chevron-down"></i>
+  </button>
+
+  <button class="btn">button
+    <i class="fas fa-search icon"></i>
+  </button>
+
+  <button class="btn">
+    Ojashwi
+  </button>
+
+  <!-- Add Bootstrap JS and Font Awesome icons (if not already included) -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<div class="slidecontainer">
+  <input type="range" min="1" max="100" value="70" id="myrange" class="slider">
+  <p>value: <span id="demo"></span></p>
+</div>
+
+<script>
+  var slider = document.getElementById("myrange");
+  var output = document.getElementById("demo");
+  output.innerHTML = slider.value;
+
+  slider.oninput = function () {
+    output.innerHTML = this.value;
+  }
+
+  if (slider.value>50) {
+
+  }
+</script>
+
+</body>
+</html>
