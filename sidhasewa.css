@@ -1,10 +1,10 @@
 body {
+    justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .main {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin: 0px 30px;
 }
 
 .topnav {
@@ -17,8 +17,19 @@ body {
     display: block;
     width: 30px;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px auto;
+}
+
+.main-nav {
+    justify-content: center;
+}
+
+.main-nav-sm {
+    display: none;
+}
+
+.main-nav ul {
+    margin-left: 118px;
 }
 
 .firstlogo {
@@ -29,13 +40,14 @@ body {
     width: 220px;
 }
 
+.profilebtn {
+    display: none;
+}
+
 .searchbar {
-    margin-left: 50px;
+    margin: 0px 0px 0px 50px;
     border: 3px solid rgb(46, 128, 200);
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-radius: 25px;
     padding-left: 25px;
     color: black;
 }
@@ -47,19 +59,21 @@ body {
     border: none;
     border-right: 2px solid rgb(46, 128, 200);
     border-radius: 1px;
-    font-size: 15px;
-    margin-top: 6px;
-    margin-left: -5px;
+    margin: 6px 0px 0px -5px;
     font-size: 12px;
     font-weight: bold;
 }
 
+.btnflex {
+    display: flex;
+}
+
 .btncollection {
-    margin-left: -196px;
+    margin: 0px 0px 0px -196px;
 }
 
 .searchbutton {
-    margin-left: -2px;
+    margin: 0px 0px 0px -2px;
     border-top-left-radius: 1px;
     border-bottom-left-radius: 1px;
     border-top-right-radius: 25px;
@@ -77,14 +91,11 @@ body {
     width: 25px;
 }
 
-.navbar ul {
-    margin-left: 118px;
-}
-
 .advertisement {
     background-image: url("img/Ad.png");
     height: 150px;
     width: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -93,20 +104,30 @@ body {
     margin: 50px 100px;
 }
 
+.menu-md {
+    justify-content: center;
+}
+
 .menu ul {
     list-style-type: none;
     display: flex;
     padding: 0px;
+    margin: 0px;
+    text-align: center;
 }
 
 .menu ul li {
-    margin-right: 50px;
+    margin: 0px 63px 0px 0px;
 }
 
 .menu a {
     font-size: 20px;
     text-decoration: none;
     color: rgb(20, 160, 20);
+}
+
+.menu-sm {
+    display: none;
 }
 
 .categories {
@@ -121,15 +142,15 @@ body {
     text-shadow: 2px 3px 2px #a9a9a9;
 }
 
-/* .categorybg {
-    background: none;
-} */
-
 .categorybtn {
     width: 100%;
     background: none;
     border: 0px;
     text-align: center;
+}
+
+.categories-sm {
+    display: none;
 }
 
 .card-header :hover {
@@ -323,68 +344,132 @@ body {
     list-style-type: none;
 }
 
+.info-sm {
+    display: none;
+}
+
 @media only screen and (max-width: 800px) {
 
-    .searchbar {
-        margin: 0px;
+    .main-nav {
+        display: none;
     }
 
-    .navbar ul {
-        margin: 0px;
-        float: right;
-    }
-
-    .navbar li {
-        padding: 5px;
-        text-align: right;
+    .main-nav-sm {
+        display: block;
     }
 
     .firstlogo {
         width: 80px;
     }
-    
+
     .secondlogo {
         width: 140px;
     }
 
+    .searchbar {
+        margin: 0px;
+    }
+
+    .searchbutton {
+        margin: 0px 0px 0px 153px;
+    }
+
+    .profilebtn {
+        margin: 14px 0px 0px 0px;
+        float: right;
+        display: inline;
+        background: none;
+        border: none;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .buttons {
+        display: none;
+    }
+
     .advertisement {
-        margin-top: 20px;
+        margin: 2px 0px;
     }
 
     .addpost {
         margin: 10px 15px;
     }
 
+    .menubtn {
+        font-size: 15px;
+        margin: 0px 0px 0px -20px;
+        border: 2px solid gray;
+    }
+
+    .menu-md {
+        display: none;
+    }
+
+    .menu-sm {
+        display: block;
+    }
+
     .menu {
-        margin-top: 10px;
+        margin: 6px 0px 0px 0px;
         border-radius: 10px;
         border: 2px solid rgb(213, 212, 212);
         background-color: rgb(233, 230, 230);
     }
 
-    .menu ul {  
-        display: block;
+    .menu ul {
+        width: 100%;
+        margin: 0px;
+        display: flex;
         float: none;
     }
-    
+
+    .menuitems {
+        width: 50%;
+        border-right: solid rgb(213, 212, 212);
+    }
+
     .menu ul li {
+        padding: 5px;
         text-align: center;
         margin: 0px;
-        border-bottom: 2px solid rgb(213, 212, 212);
-        border-radius: 5px;
+    }
+
+    .menu a {
+        font-size: 18px;
+    }
+
+    .categoriesbtn {
+        font-size: 15px;
+        margin-right: -20px;
+        border: 2px solid gray;
+    }
+
+    .categories-sm {
+        display: block;
+    }
+
+    .categories-md {
+        display: none;
     }
 
     .categories {
         margin-bottom: 20px;
     }
 
+    .filter {
+        margin-bottom: 5px;
+    }
+
     .ads {
-        margin-bottom: 20px;
+        display: none;
     }
 
     .filterslider::-moz-range-thumb {
-        height: 7px;
-        width: 7px;
+        height: 6px;
+        width: 6px;
     }
 
     .itemheadline {
@@ -394,7 +479,7 @@ body {
 
     .headline {
         text-align: center;
-        font-size: 20px;
+        font-size: 18px;
         margin: 0px;
     }
 
@@ -402,21 +487,67 @@ body {
         margin-top: 12px;
     }
 
+    .itemscontainer {
+        width: 50%;
+    }
+
     .items {
-        margin-bottom: 20px;
+        margin-bottom: 17px;
     }
 
     .items .card-body .row {
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .productscontainer {
+        width: 33%;
     }
 
     .products {
-        margin-bottom: 20px;
+        padding: 0px;
+        margin-bottom: 17px;
+    }
+
+    .products h2 {
+        font-size: 20px;
+    }
+
+    .products .card-body .row {
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 13px;
+    }
+
+    .products span {
+        font-size: 10px;
+    }
+    
+    .info-md {
+        display: none;
+    }
+
+    .info-sm {
+        display: block;
     }
 
     .info .row {
         margin: 0px;
+        display: flex;
+        font-size: 12px;
+    }
+
+    .info .row h4 {
+        font-size: 18px;
+    }
+
+
+    .infoitems-1 {
+        width: 32%;
+    }
+
+    .infoitems-2 {
+        width: 68%;
     }
 
     .infoline {

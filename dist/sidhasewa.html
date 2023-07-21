@@ -17,46 +17,83 @@
     <div class="topnav">
         <img class="flag" src="/images/Nepalflag.png" alt="">
     </div>
-    <nav class="navbar navbar-expand-sm bg-light navbar-light">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-sm bg-light navbar-light main-nav container-fluid">
+        
             <a href="#" class="navbar-brand">
                 <img class="firstlogo" src="/images/sidhasewalogo.png" alt="sidhasewa logo">
                 <img class="secondlogo" src="/images/sidhasewa.png" alt="sidhasewa logo">
             </a>
-            <button style="border: none;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <a href="login.html"><button class="profilebtn" type="button">
+                    <img src="/images/flower2.jpg" alt="profile" class="profile">
+                </button></a>
             <form class="d-flex">
                 <input class="form-control searchbar" type="text" placeholder="I am looking for?" size="52px">
                 <div class="btncollection d-flex">
                     <button class=" buttons"><i class="fas fa-microphone"></i></button>
-                    <button class=" d-flex buttons"><i class="fas fa-location pt-1 pe-1"></i>Location</button>
+                    <button class="buttons btnflex"><i class="fas fa-location pt-1 pe-1"></i>Location</button>
                     <button class=" buttons">10km</button>
                     <button class="btn btn-primary searchbutton" type="button"><i class="fas fa-search"></i></button>
                 </div>
             </form>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <img src="/images/flower2.jpg" alt="profile" class="profile">
-                    </li>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <img src="/images/flower2.jpg" alt="profile" class="profile">
+                </li>
 
-                    <li class="nav-item">
-                        <button class="btn"><i style="font-size: 25px;" class="fas fa-list"></i></button>
-                    </li>
+                <li class="nav-item">
+                    <button class="btn"><i style="font-size: 25px;" class="fas fa-list"></i></button>
+                </li>
 
-                    <li class="nav-item">
-                        <button class="btn"><i style="font-size: 25px;" class="fas fa-bell"></i></button>
-                    </li>
+                <li class="nav-item">
+                    <button class="btn"><i style="font-size: 25px;" class="fas fa-bell"></i></button>
+                </li>
 
-                    <li class="nav-item">
-                        <button class="btn btn-primary">DONATE
-                            <img src="img/Donation.png" alt="" class="donation">
-                        </button>
-                    </li>
-                </ul>
-            </div>
+                <li class="nav-item">
+                    <button class="btn btn-primary">DONATE
+                        <img src="img/Donation.png" alt="" class="donation">
+                    </button>
+                </li>
+            </ul>
     </nav>
+
+    <nav class="navbar navbar-expand-sm bg-light navbar-light main-nav-sm container-fluid">
+        
+        <a href="#" class="navbar-brand">
+            <img class="firstlogo" src="/images/sidhasewalogo.png" alt="sidhasewa logo">
+            <img class="secondlogo" src="/images/sidhasewa.png" alt="sidhasewa logo">
+        </a>
+        <a href="login.html"><button class="profilebtn" type="button">
+                <img src="/images/flower2.jpg" alt="profile" class="profile">
+            </button></a>
+        <form class="d-flex">
+            <input class="form-control searchbar" type="text" placeholder="I am looking for?" size="52px">
+            <div class="btncollection d-flex">
+                <button class=" buttons"><i class="fas fa-microphone"></i></button>
+                <button class="buttons btnflex"><i class="fas fa-location pt-1 pe-1"></i>Location</button>
+                <button class=" buttons">10km</button>
+                <button class="btn btn-primary searchbutton" type="button"><i class="fas fa-search"></i></button>
+            </div>
+        </form>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <img src="/images/flower2.jpg" alt="profile" class="profile">
+            </li>
+
+            <li class="nav-item">
+                <button class="btn"><i style="font-size: 25px;" class="fas fa-list"></i></button>
+            </li>
+
+            <li class="nav-item">
+                <button class="btn"><i style="font-size: 25px;" class="fas fa-bell"></i></button>
+            </li>
+
+            <li class="nav-item">
+                <button class="btn btn-primary">DONATE
+                    <img src="img/Donation.png" alt="" class="donation">
+                </button>
+            </li>
+        </ul>
+</nav>
 
     <div class="advertisement">
         <div class="addpost btn btn-primary"> POST ADD <i class="fas fa-plus-circle" style="margin-left:10px ;"></i>
@@ -64,14 +101,9 @@
     </div>
 
     <div class="main">
-        <d.iv class="navbar navbar-expand-sm-md">
-            <div class="container-fluid">
-                <button style="margin-left: -20px; border: 2px solid gray;" class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapsiblemenu">
-                    <span> <i class="fas fa-bars"> Menu</i> </span>
-                </button>
-                <div class="menu collapse navbar-collapse" id="collapsiblemenu">
-                    <ul>
+        <div class="navbar navbar-expand-sm menu-md">
+                <div class="menu">
+                    <ul class="container">
                         <li> <a href="">Available</a></li>
                         <li> <a href="">Available</a></li>
                         <li> <a href="">Rental</a></li>
@@ -79,14 +111,207 @@
                         <li> <a href="">Might need</a></li>
                         <li> <a href="">Might need</a></li>
                         <li> <a href="">Coming soon</a></li>
-                        <li style="border: none;"> <a href="">Exchange</a></li>
+                        <li style="margin: 0px;"> <a href="">Exchange</a></li>
+                    </ul>
+                </div>
+        </div>
+
+        <div class="navbar navbar-expand-sm menu-sm">
+            <div class="container">
+                <button class="navbar-toggler menubtn" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsiblemenu">
+                    <span> <i class="fas fa-bars"> Menu</i> </span>
+                </button>
+                <button class="navbar-toggler categoriesbtn" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsiblecategories">
+                    <span> <i class="fas fa-bars"> Categories</i> </span>
+                </button>
+
+                <div class="menu collapse navbar-collapse" id="collapsiblemenu">
+                    <ul>
+                        <div class="menuitems">
+                            <li> <a href="">Available</a></li>
+                            <li> <a href="">Available</a></li>
+                            <li> <a href="">Rental</a></li>
+                            <li> <a href="">Rental</a></li>
+                        </div>
+                        <div style="border: none;" class="menuitems">
+                            <li> <a href="">Might need</a></li>
+                            <li> <a href="">Might need</a></li>
+                            <li> <a href="">Coming soon</a></li>
+                            <li> <a href="">Exchange</a></li>
+                        </div>
                     </ul>
                 </div>
             </div>
-        </d.iv>
+        </div>
 
         <div class="row">
-            <div class="col-sm-3 categories">
+            <div class="col-sm-3 categories categories-sm collapse navbar-collapse" id="collapsiblecategories">
+                <h3>Categories</h3>
+                <div id="categories">
+                    <div style="border-top: none; border-left: none; border-right: none;" class="card">
+                        <div class="card-header categorybg">
+                            <a href="#ApparelsAccessories" data-bs-toggle="collapse">
+                                <button class="categorybtn"> <i class="fas fa-tshirt categoryicon"> </i>
+                                    Apparel&Accessories
+                                    <i class="fas fa-angle-down categoryarrow"></i></button>
+                            </a>
+                        </div>
+                        <div id="ApparelsAccessories" class="collapse" data-bs-parent="#categories">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="border-top: none; border-left: none; border-right: none;" class="card">
+                        <div class="card-header categorybg">
+
+                            <a href="#Automobiles" data-bs-toggle="collapse">
+                                <button class="categorybtn"><i class="fas fa-car-side categoryicon"> </i>
+                                    Automobiles
+                                    <i class="fas fa-angle-down categoryarrow"></i></button>
+                            </a>
+                        </div>
+                        <div id="Automobiles" class="collapse" data-bs-parent="#categories">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="border-top: none; border-left: none; border-right: none;" class="card">
+                        <div class="card-header categorybg">
+
+                            <a href="#HealthBeauty" data-bs-toggle="collapse">
+                                <button class="categorybtn"><i class="far fa-heart categoryicon"> </i>
+                                    Health&Beauty
+                                    <i class="fas fa-angle-down categoryarrow"></i></button>
+                            </a>
+                        </div>
+                        <div id="HealthBeauty" class="collapse" data-bs-parent="#categories">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="border-top: none; border-left: none; border-right: none;" class="card">
+                        <div class="card-header categorybg">
+
+                            <a href="#BooksLearning" data-bs-toggle="collapse">
+                                <button class="categorybtn"><i class="fas fa-book-open categoryicon"> </i>
+                                    Books&Learning
+                                    <i class="fas fa-angle-down categoryarrow"></i></button>
+                            </a>
+                        </div>
+                        <div id="BooksLearning" class="collapse" data-bs-parent="#categories">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="border-top: none; border-left: none; border-right: none;" class="card">
+                        <div class="card-header categorybg">
+
+                            <a href="#BusinessIndustrial" data-bs-toggle="collapse">
+                                <button class="categorybtn"><i class="fas fa-city categoryicon"> </i>
+                                    Business&Industrial
+                                    <i class="fas fa-angle-down categoryarrow"></i></button>
+                            </a>
+                        </div>
+                        <div id="BusinessIndustrial" class="collapse" data-bs-parent="#categories">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="border-top: none; border-left: none; border-right: none;" class="card">
+                        <div class="card-header categorybg">
+
+                            <a href="#ComputerPeripherial" data-bs-toggle="collapse">
+                                <button class="categorybtn"><i class="fas fa-desktop categoryicon"> </i>
+                                    Computer&Peripherial
+                                    <i class="fas fa-angle-down categoryarrow"></i></button>
+                            </a>
+                        </div>
+                        <div id="ComputerPeripherial" class="collapse" data-bs-parent="#categories">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="border-top: none; border-left: none; border-right: none;" class="card">
+                        <div class="card-header categorybg">
+
+                            <a href="#Electronictvmore" data-bs-toggle="collapse">
+                                <button class="categorybtn"><i class="fas fa-mobile-alt categoryicon"> </i>
+                                    Electronic,TV,&More
+                                    <i class="fas fa-angle-down categoryarrow"></i></button>
+                            </a>
+                        </div>
+                        <div id="Electronictvmore" class="collapse" data-bs-parent="#categories">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="border-top: none; border-left: none; border-right: none;" class="card">
+                        <div class="card-header categorybg">
+
+                            <a href="#EventsHappening" data-bs-toggle="collapse">
+                                <button class="categorybtn"><i class="fas fa-calendar-alt categoryicon"> </i>
+                                    Events&Happening
+                                    <i class="fas fa-angle-down categoryarrow"></i></button>
+                            </a>
+                        </div>
+                        <div id="EventsHappening" class="collapse" data-bs-parent="#categories">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="border-top: none; border-left: none; border-right: none;" class="card">
+                        <div class="card-header categorybg">
+
+                            <a href="#SSselect" data-bs-toggle="collapse">
+                                <button class="categorybtn"><i class="fas fa-certificate categoryicon"> </i>
+                                    SS Select
+                                    <i class="fas fa-angle-down categoryarrow"></i></button>
+                            </a>
+                        </div>
+                        <div id="SSselect" class="collapse" data-bs-parent="#categories">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="border-top: none; border-left: none; border-right: none;" class="card">
+                        <div class="card-header categorybg">
+
+                            <a href="#seemore" data-bs-toggle="collapse">
+                                <button class="categorybtn">
+                                    <span style="display: block;">See More</span>
+                                    <i class="fas fa-angle-down"></i></button>
+                            </a>
+                        </div>
+                        <div id="seemore" class="collapse" data-bs-parent="#categories">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-3 categories categories-md">
                 <h3>Categories</h3>
                 <div id="categories">
                     <div style="border-top: none; border-left: none; border-right: none;" class="card">
@@ -287,7 +512,7 @@
         </div>
 
         <div class="row mb-3">
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div class="card items">
                     <img src="img/BBQ-cooker.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -321,7 +546,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div class="card items">
                     <img src="img/Hand-mixer.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -355,7 +580,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div class="card items">
                     <img src="img/Fryer.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -389,7 +614,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div class="card items">
                     <img src="img/Iron.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -423,8 +648,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
-                <div class="card items">
+            <div class="col-sm-2 itemscontainer">
+                <div style="margin-bottom: 0px;" class="card items">
                     <img src="img/Popcorn-maker.png" alt="" class="card-image-top">
                     <div class="card-body">
                         <div class="row">
@@ -457,7 +682,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div style="margin-bottom: 0px;" class="card items">
                     <img src="img/Ricecooker.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -494,7 +719,7 @@
         </div>
 
         <div class="row">
-            <div class="col-sm-6 ">
+            <div class="col-sm-6">
                 <div class="card products">
                     <div class="card-body">
                         <div class="row">
@@ -503,7 +728,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-4">
+                            <div class="col-sm-4 productscontainer">
                                 <div class="card">
                                     <img src="img/Bag.png" alt="" class="card-image-top">
                                     <div class="card-body">
@@ -514,7 +739,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-4 productscontainer">
                                 <div class="card">
                                     <img src="img/Shoes.png" alt="" class="card-image-top">
                                     <div class="card-body">
@@ -525,7 +750,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-4 productscontainer">
                                 <div class="card">
                                     <img src="img/Camera.png" alt="" class="card-image-top">
                                     <div class="card-body">
@@ -549,7 +774,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-4">
+                            <div class="col-sm-4 productscontainer">
                                 <div class="card">
                                     <img src="img/Hydration serum.png" alt="" class="card-image-top">
                                     <div class="card-body">
@@ -560,7 +785,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-4 productscontainer">
                                 <div class="card">
                                     <img src="img/Depuffing eye serum.png" alt="" class="card-image-top">
                                     <div class="card-body">
@@ -571,7 +796,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-4 productscontainer">
                                 <div class="card">
                                     <img src="img/Oil control serum.png" alt="" class="card-image-top">
                                     <div class="card-body">
@@ -599,7 +824,7 @@
         </div>
 
         <div class="row">
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div class="card items">
                     <img src="img/Black Slippers.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -633,7 +858,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div class="card items">
                     <img style="padding-bottom: 5px;" src="img/Bag.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -667,7 +892,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div class="card items">
                     <img src="img/Red Slippers.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -701,7 +926,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div class="card items">
                     <img src="img/Shoe.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -735,8 +960,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
-                <div class="card items">
+            <div class="col-sm-2 itemscontainer">
+                <div style="margin-bottom: 0px;" class="card items">
                     <img src="img/Hat.png" alt="" class="card-image-top">
                     <div class="card-body">
                         <div class="row">
@@ -769,7 +994,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div style="margin-bottom: 0px;" class="card items">
                     <img src="img/Tote bag.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -816,7 +1041,7 @@
         </div>
 
         <div class="row mb-3">
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div class="card items">
                     <img src="img/Black Slippers.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -850,7 +1075,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div class="card items">
                     <img style="padding-bottom: 5px;" src="img/Bag.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -884,7 +1109,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div class="card items">
                     <img src="img/Red Slippers.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -918,7 +1143,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div class="card items">
                     <img src="img/Shoe.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -952,8 +1177,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
-                <div class="card items">
+            <div class="col-sm-2 itemscontainer">
+                <div style="margin-bottom: 0px;" class="card items">
                     <img src="img/Hat.png" alt="" class="card-image-top">
                     <div class="card-body">
                         <div class="row">
@@ -986,7 +1211,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div style="margin-bottom: 0px;" class="card items">
                     <img src="img/Tote bag.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -1023,7 +1248,7 @@
         </div>
 
         <div class="row">
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div class="card items">
                     <img src="img/Black Slippers.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -1057,7 +1282,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div class="card items">
                     <img style="padding-bottom: 5px;" src="img/Bag.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -1091,7 +1316,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div class="card items">
                     <img src="img/Red Slippers.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -1125,7 +1350,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div class="card items">
                     <img src="img/Shoe.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -1159,8 +1384,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
-                <div class="card items">
+            <div class="col-sm-2 itemscontainer">
+                <div style="margin-bottom: 0px;" class="card items">
                     <img src="img/Hat.png" alt="" class="card-image-top">
                     <div class="card-body">
                         <div class="row">
@@ -1193,7 +1418,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div style="margin-bottom: 0px;" class="card items">
                     <img src="img/Tote bag.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -1239,8 +1464,8 @@
             </div>
         </div>
 
-        <div class="row mb-4">
-            <div class="col-sm-2">
+        <div class="row mb-3">
+            <div class="col-sm-2 itemscontainer">
                 <div class="card items">
                     <img src="img/Black Slippers.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -1274,7 +1499,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div class="card items">
                     <img style="padding-bottom: 5px;" src="img/Bag.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -1308,7 +1533,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div class="card items">
                     <img src="img/Red Slippers.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -1342,7 +1567,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div class="card items">
                     <img src="img/Shoe.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -1376,8 +1601,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
-                <div class="card items">
+            <div class="col-sm-2 itemscontainer">
+                <div style="margin-bottom: 0px;" class="card items">
                     <img src="img/Hat.png" alt="" class="card-image-top">
                     <div class="card-body">
                         <div class="row">
@@ -1410,7 +1635,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div style="margin-bottom: 0px;" class="card items">
                     <img src="img/Tote bag.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -1446,8 +1671,8 @@
             </div>
         </div>
 
-        <div class="row mb-4">
-            <div class="col-sm-2">
+        <div class="row mb-3">
+            <div class="col-sm-2 itemscontainer">
                 <div class="card items">
                     <img src="img/Black Slippers.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -1481,7 +1706,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div class="card items">
                     <img style="padding-bottom: 5px;" src="img/Bag.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -1515,7 +1740,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div class="card items">
                     <img src="img/Red Slippers.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -1549,7 +1774,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div class="card items">
                     <img src="img/Shoe.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -1583,8 +1808,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
-                <div class="card items">
+            <div class="col-sm-2 itemscontainer">
+                <div style="margin-bottom: 0px;" class="card items">
                     <img src="img/Hat.png" alt="" class="card-image-top">
                     <div class="card-body">
                         <div class="row">
@@ -1617,7 +1842,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 itemscontainer">
                 <div style="margin-bottom: 0px;" class="card items">
                     <img src="img/Tote bag.png" alt="" class="card-image-top">
                     <div class="card-body">
@@ -1653,7 +1878,7 @@
             </div>
         </div>
     </div>
-    <div class="info">
+    <div class="info info-md">
         <div class="row">
             <div class="col-sm-3">
                 <h4>About us</h4>
@@ -1664,6 +1889,31 @@
             </div>
             <div class="col-sm-3"></div>
             <div class="col-sm-4">
+                <h4>Account & shipping info</h4>
+                <li>Your account</li>
+                <li>Shipping rates & policies</li>
+                <li>Refunds & replacements</li>
+                <li>Order tracking</li>
+                <li>Delivery info</li>
+                <li>Taxes & fees</li>
+                <span style="float: right;"><i class="fab fa-facebook"></i> <i class="fab fa-whatsapp"></i> <i
+                        class="fab fa-instagram"></i></span>
+            </div>
+        </div>
+        <div class="infoline"></div>
+    </div>
+
+    <div class="info info-sm">
+        <div class="row">
+            <div class="col-sm-3 infoitems-1">
+                <h4>About us</h4>
+                <li>About company</li>
+                <li>Our team</li>
+                <li>Careers</li>
+                <li>News</li>
+            </div>
+
+            <div class="col-sm-4 infoitems-2">
                 <h4>Account & shipping info</h4>
                 <li>Your account</li>
                 <li>Shipping rates & policies</li>
